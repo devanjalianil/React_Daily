@@ -1,16 +1,21 @@
-# React + Vite
+# Day 1 - Hello React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is my very first React project!  
+It’s a simple UI that displays a greeting message:  
+**"Hello React, I'm Devanjali — this is my first component."**
 
-Currently, two official plugins are available:
+## What I Learned
+- How to set up a React project using Vite
+- Creating my first component (`App.jsx`)
+- Rendering text inside the component
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run
+1. Clone the repo
+2. Navigate to `Day1-HelloReact`
+3. Run `npm install`
+4. Run `npm run dev`
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Notes
+This project marks the beginning of my React learning journey.  
+Each day I’ll add a new folder with a fresh project to show my growth step by step.
