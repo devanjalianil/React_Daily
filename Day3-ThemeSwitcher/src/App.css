@@ -1,0 +1,64 @@
+.app.light {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app.dark {
+  background-color: #222;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.navbar {
+  position: fixed;
+  top:0;
+  left:0;
+  height: 60px;
+  width: 100%;
+  padding:0px;
+  display: flex;
+  font-family: "Trebuchet MS", sans-serif;
+  box-shadow: 0 4px 6px rgba(196, 177, 177, 0.423);
+  z-index:1000;
+}
+.main-content {
+  padding-top: 60px;
+  flex : 1;
+}
+
+.navbar.light{
+  background-color: #d0cece;
+  padding: 0px;
+  text-align: center;
+
+.navbar.dark {
+  background-color: #989696;
+  padding: 0px;
+  text-align: center;
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+button.light {
+  background-color : #f0f0f0;
+  color :black;
+  border : none;
+  border-radius : 5px;
+}
+ body {
+  margin : 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding : 0px;
+  margin-right: 0px;;
+  top : 40px;
+ }}
