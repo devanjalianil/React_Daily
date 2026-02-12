@@ -1,0 +1,107 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #eedbf4, #ffa6ff);
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  width: 400px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.task-input button {
+  padding: 10px 14px;
+  background: #9b4d9d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task-input button:hover {
+  opacity: 0.9;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 6px;
+  background: #f7f7f7;
+}
+.task.done span {
+  text-decoration: line-through;
+  color: #626262;
+  transition: all 0.3s ease;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 6px;
+  background: #fdc5db;
+  animation: fadeIn 0.3s ease-in-out;
+  transition: all 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+button {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.app {
+  animation: popIn 0.4s ease;
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.empty {
+  text-align: center;
+  color: #555;
+}
